@@ -7,22 +7,38 @@
     <link rel="stylesheet" href="style0303.css">
 </head>
 <body> 
-       <h1></h1>
-         <p></p>
-<form></form>
-    <label for="name">Name:</label>    <br>
+       <h1>Doučování</h1>
+         <h2>Vítejte na našem doučování prosím vyplntě tento formulář, nabízíme individuální doučování pro tyto předměty:</h2>
+         <ul>
+            <li><a href="Matematika.html">Matematika</a></li>
+            <li><a href="Fyzika.html">Fyzika</a></li>
+            <li><a href="Chemie.html">Chemie</a></li>
+            <li><a href="Biologie.html">Biologie</a></li>
+            <li><a href="Anglický jazyk.html">Anglický jazyk</a></li>
+         </ul>
+<form>
+    <label for="name"><b>Name:</b></label>    <br>
         <input type="text" id="name" name="name"><br><br> 
-    <label type="number" for="age">Age:</label> <br>
+    <label for="age"><b>Age:</b></label> <br>
         <input type="number" id="age" name="age"><br><br>
-    <label for="email">Email:</label> <br>
+    <label for="email"><b>Email:</b></label> <br>
         <input type="email" id="email" name="email"><br><br>
-    <label>Pohlaví:</label> <br>
-        <input type="radio" name="pohlavi" value="muz"> Muž<br>
-        <input type="radio" name="pohlavi" value="zena"> Žena<br> <br>
-  
+    <label><b>Pohlaví:</b></label> <br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Muž</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Žena</label><br><br>
+    <label for="subject"><b>Předmět:</b></label> <br><br>
+        <select id="subject" name="subject">
+            <option value="math">Matematika</option>
+            <option value="physics">Fyzika</option>
+            <option value="chemistry">Chemie</option>
+            <option value="biology">Biologie</option>
+            <option value="english">Anglický jazyk</option>
+        </select><br><br>
+</form>  
   
   
     <button>Odeslat</button>
-</form>
 </body>
 </html>
