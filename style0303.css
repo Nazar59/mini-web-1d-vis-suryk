@@ -1,49 +1,109 @@
-button:hover{
-     background-color: rgb(141, 99, 175);
-     cursor: not-allowed;
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-button:active{
-transform:scale(0.80) ;
-}
-input {
-    padding: 10px;
-    width: 250px;
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 8px;
-    margin-top: 10px;
-}
+
+
 h1 {
-    color: darkblue;
-    text-align: center;
-    
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
 }
 
 h2 {
-    margin-top: 30px;
-    color: #333;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    max-width: 600px;
+    text-align: center;
 }
-button:hover{
-     background-color: rgb(0, 233, 250);
-     cursor:grabbing;
-}
-body {
-    font-family: Arial, sans-serif;
-    padding: 30px;
-    background-color: #f2f2f2;
-    cursor: url("cr.webp"),auto;
 
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    padding: 8px 15px;
+    border: 1px solid #3498db;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+ul li a:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box; 
+    font-size: 1rem;
+}
+
+
+input[type="radio"] {
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 button {
-    padding: 10px 20px;
-    background-color: rgb(255, 27, 168);
+    width: 100%;
+    max-width: 460px; 
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #27ae60;
     color: white;
     border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    transition: background-color 1.5s ease;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
 }
-.div {
-    text-align: center;
+
+button:hover {
+    background-color: #219150;
 }
+
 
