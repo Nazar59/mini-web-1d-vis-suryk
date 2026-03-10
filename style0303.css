@@ -37,10 +37,10 @@ ul {
 
 ul li a {
     text-decoration: none;
-    color: #3498db;
+    color: #06191f;
     font-weight: bold;
     padding: 8px 15px;
-    border: 1px solid #3498db;
+    border: 1px solid #06191f;
     border-radius: 20px;
     transition: all 0.3s ease;
 }
@@ -105,5 +105,20 @@ button {
 button:hover {
     background-color: #219150;
 }
+a {
+    width: 100%;
+    max-width: 460px; 
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
 
 
