@@ -119,12 +119,7 @@ a {
     cursor: pointer;
     transition: background 0.3s ease;
  
-.centre {
-  position: absolute;
-  left: 200px;   
-  top: 100px;    
-  width: 150px;
-}
+
 
 
 
